@@ -2121,6 +2121,8 @@ responsive
 
 .stacked-images {
   perspective: 1500px;
+  z-index: 1; 
+
 }
 
 .stacked-images img {
@@ -2132,7 +2134,7 @@ responsive
 
 .stacked-images img:hover {
   transform: translateY(-20px) rotate(-5deg);
-  z-index: 3;
+  
 }
 
 
@@ -2183,7 +2185,7 @@ responsive
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 1; /* Asegura que el contenedor esté detrás de todo */
+  z-index: 0; /* Asegura que el contenedor esté detrás de todo */
 }
 
 
